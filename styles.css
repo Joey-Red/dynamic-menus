@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* navbar with dropdown menu */
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+.dropDownNavbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3% auto 150px auto;
+  /* border-bottom: solid black 2px; */
+  padding-bottom: 32px;
+}
+.hidden-item {
+  border: solid black 1px;
+  padding: 4px;
+}
+.hidden-item:hover {
+  background-color: #ff25257e;
+}
+
+/* MOBILE MENU */
+.mobileMenu {
+  justify-content: center;
+  gap: 25px;
+  display: grid;
+  grid-template-areas:
+    "stemOne stemTwo stemThree"
+    "stemFour main stemFive";
+  margin-bottom: 100px;
+}
+#main,
+.stem-button {
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  border: solid black 2px;
+  cursor: pointer;
+}
+
+#main {
+  grid-area: main;
+  background-color: rgb(246, 71, 71);
+}
+.hidden {
+  display: none;
+}
+#home {
+  background-color: rgb(242, 121, 53);
+}
+#music {
+  background-color: rgb(191, 85, 236);
+}
+#market {
+  background-color: rgb(46, 204, 113);
+}
+#friends {
+  background-color: rgb(230, 255, 110);
+}
+#food {
+  background-color: rgb(3, 138, 255);
+}
+.stem-button {
+  min-width: 75px;
+}
+/* PICTURE CAROUSEL */
+.pictureCarousel {
+  /* max-width: 100%;
+  overflow: hidden; */
+}
+.pictureHolder {
+  display: relative;
+  border: solid red 2px;
+  min-height: 400px;
+  background: url(./img/dog1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.right {
+  justify-self: end;
+}
