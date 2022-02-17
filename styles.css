@@ -72,8 +72,6 @@ a:visited {
 }
 /* PICTURE CAROUSEL */
 .pictureCarousel {
-  /* max-width: 100%;
-  overflow: hidden; */
 }
 .picture1,
 .picture2,
@@ -129,4 +127,16 @@ a:visited {
 .left:hover,
 .right:hover {
   scale: 1.2;
+}
+@media (min-width: 521px) {
+  .picture1,
+  .picture2,
+  .picture3,
+  .picture4,
+  .picture5 {
+    min-height: 90vh;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: solid red 2px;
+  }
 }
