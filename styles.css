@@ -128,6 +128,14 @@ a:visited {
 .right:hover {
   scale: 1.2;
 }
+.frameNumber {
+  margin: 10px auto;
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  max-width: 20%;
+}
 @media (min-width: 521px) {
   .picture1,
   .picture2,
